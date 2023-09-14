@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.nav-bar{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.principal,.links{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.links{
+    margin-left: 20px ;
+    margin-right: 20px;
+}
+
+.cards{
+ position: absolute;
+ left: 13%;
+}
+.card-1{
+   padding: 20px;
+    border: 3px orange solid;
+    margin-right: 20px;
+    width: 250px;
+    float: left;
+    margin-right: 60px;
+   margin-top: 60px;
+}
+.text{
+    text-align: center;
+    font-size: 14px;
+}
+.bta{
+    text-align: center;
+    
+}
+.btn{
+    color: aliceblue;
+   font-size: 16px;
+   padding-bottom: 10px ;
+   padding-top: 10px ;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: orange;
+    border: none;
+}
